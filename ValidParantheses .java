@@ -2,8 +2,8 @@ import java.util.*;
 
 public class ValidParantheses {
     public boolean isValid(String s) {
-        Stack<Character> stack = new Stack<>();
 
+        Stack<Character> stack = new Stack<>();
         // if left parantheses --> push
         // if right parantheses --> pop
         for (int i = 0; i < s.length(); i++) {
