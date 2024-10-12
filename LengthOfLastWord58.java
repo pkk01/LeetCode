@@ -20,5 +20,5 @@ class Solution {
         }
         // return counter value
         return counter;
-    }
 }
+    }
